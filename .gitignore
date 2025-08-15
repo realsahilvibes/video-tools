@@ -138,6 +138,10 @@ celerybeat.pid
 *.pt
 yolov8n.pt
 
+#captures
+*.jpg
+captures/
+
 # Environments
 .env
 .envrc
