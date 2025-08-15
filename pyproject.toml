@@ -1,0 +1,18 @@
+[project]
+name = "video-tools"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Sahil",email = "sahilturile@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ultralytics (>=8.3.179,<9.0.0)",
+    "opencv-python (>=4.12.0.88,<5.0.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
